@@ -6,5 +6,5 @@ widely used datasets for facial expression recognition. They contain high-resolu
 facial muscle movements (action units) in addition to categorizing emotions. Due to its high classification quality,
 CK+ is commonly used for model calibration, evaluation, and transfer learning in facial expression recognition.
 
-The dataset used in this study can be accessed from:
+The dataset used in this study can be accessed from: 
 https://www.kaggle.com/datasets/shawon10/ckplus
