@@ -1,4 +1,4 @@
-The Extended Cohn–Kanade (CK+) dataset [20] contains approximately 981 sequences collected from 123
+The Extended Cohn–Kanade (CK+) dataset: contains approximately 981 sequences collected from 123
 individuals representing diverse populations. They include seven expressions: anger, contempt, disgust, fear,
 happiness, sadness, and surprise. These expressions are derived from a variety of emotions and are among the most
 widely used datasets for facial expression recognition. They contain high-resolution grayscale images with a size of
