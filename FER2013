@@ -1,1 +1,3 @@
 FER2013: is one of the largest and most challenging facial expression datasets available, containing 35,887 grayscale images captured at 48×48 pixels. It's automatically collected from internet sources. They are divided into seven classes representing such emotions as anger, disgust, fear, happiness, sadness, surprise, and neutral. Class imbalance is also seen in this dataset, where the proportion of Happy is around 25%, whereas Disgust constitutes about 1.5%. Additionally, there is intra-class variance because of pose, lighting, and occlusion. Officially provided partitions include 28,709 images for training, 3,589 images for validation, and 3,589 images for testing.
+
+https://www.kaggle.com/datasets/msambare/fer2013
