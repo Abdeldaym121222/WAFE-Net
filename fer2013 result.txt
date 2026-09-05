@@ -1,0 +1,200 @@
+(torch2) C:\Users\PC5>python D:\New_Model\train.py --dataset fer2013 --data_root D:\New_Model\fer2013
+
+============================================================
+  Dataset : FER2013
+  Model   : wafenet
+  Device  : cuda
+============================================================
+
+FER2013  train=28,709  val=7,178  test=7,178
+Classes : ['angry', 'disgust', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+Parameters: 22.4 M
+
+Epoch   1/50  train_loss=1.3357  train_acc=49.72%  val_loss=1.0326  val_acc=61.41%  lr=3.00e-04  [231.0s]
+  ✓ New best val_acc=61.41% — checkpoint saved.
+Epoch   2/50  train_loss=1.0687  train_acc=60.97%  val_loss=0.9560  val_acc=65.13%  lr=2.99e-04  [230.8s]
+  ✓ New best val_acc=65.13% — checkpoint saved.
+Epoch   3/50  train_loss=0.9610  train_acc=65.01%  val_loss=0.9077  val_acc=66.75%  lr=2.97e-04  [230.4s]
+  ✓ New best val_acc=66.75% — checkpoint saved.
+Epoch   4/50  train_loss=0.8937  train_acc=67.35%  val_loss=0.8947  val_acc=67.76%  lr=2.95e-04  [230.4s]
+  ✓ New best val_acc=67.76% — checkpoint saved.
+Epoch   5/50  train_loss=0.8295  train_acc=70.11%  val_loss=0.8742  val_acc=68.49%  lr=2.93e-04  [230.3s]
+  ✓ New best val_acc=68.49% — checkpoint saved.
+Epoch   6/50  train_loss=0.7611  train_acc=72.66%  val_loss=0.8746  val_acc=68.88%  lr=2.89e-04  [230.2s]
+  ✓ New best val_acc=68.88% — checkpoint saved.
+Epoch   7/50  train_loss=0.7073  train_acc=74.87%  val_loss=0.8950  val_acc=69.71%  lr=2.86e-04  [230.0s]
+  ✓ New best val_acc=69.71% — checkpoint saved.
+Epoch   8/50  train_loss=0.6476  train_acc=77.05%  val_loss=0.9000  val_acc=69.85%  lr=2.81e-04  [230.0s]
+  ✓ New best val_acc=69.85% — checkpoint saved.
+Epoch   9/50  train_loss=0.5909  train_acc=79.15%  val_loss=0.9451  val_acc=70.13%  lr=2.77e-04  [230.7s]
+  ✓ New best val_acc=70.13% — checkpoint saved.
+Epoch  10/50  train_loss=0.5460  train_acc=80.55%  val_loss=0.9516  val_acc=69.77%  lr=2.71e-04  [230.4s]
+Epoch  11/50  train_loss=0.4957  train_acc=82.47%  val_loss=1.0201  val_acc=70.60%  lr=2.66e-04  [230.3s]
+  ✓ New best val_acc=70.60% — checkpoint saved.
+Epoch  12/50  train_loss=0.4577  train_acc=84.03%  val_loss=1.0441  val_acc=70.84%  lr=2.59e-04  [230.5s]
+  ✓ New best val_acc=70.84% — checkpoint saved.
+Epoch  13/50  train_loss=0.4092  train_acc=85.72%  val_loss=1.0773  val_acc=71.02%  lr=2.53e-04  [230.4s]
+  ✓ New best val_acc=71.02% — checkpoint saved.
+Epoch  14/50  train_loss=0.3734  train_acc=87.09%  val_loss=1.1235  val_acc=70.42%  lr=2.46e-04  [230.4s]
+Epoch  15/50  train_loss=0.3439  train_acc=88.30%  val_loss=1.2445  val_acc=71.12%  lr=2.38e-04  [230.5s]
+  ✓ New best val_acc=71.12% — checkpoint saved.
+Epoch  16/50  train_loss=0.3121  train_acc=89.20%  val_loss=1.1893  val_acc=71.58%  lr=2.30e-04  [230.4s]
+  ✓ New best val_acc=71.58% — checkpoint saved.
+Epoch  17/50  train_loss=0.2866  train_acc=90.08%  val_loss=1.3065  val_acc=71.08%  lr=2.22e-04  [230.5s]
+Epoch  18/50  train_loss=0.2677  train_acc=90.64%  val_loss=1.2312  val_acc=71.57%  lr=2.14e-04  [230.3s]
+Epoch  19/50  train_loss=0.2434  train_acc=91.56%  val_loss=1.3477  val_acc=72.08%  lr=2.05e-04  [230.3s]
+  ✓ New best val_acc=72.08% — checkpoint saved.
+Epoch  20/50  train_loss=0.2270  train_acc=92.17%  val_loss=1.3809  val_acc=71.57%  lr=1.96e-04  [230.0s]
+Epoch  21/50  train_loss=0.2141  train_acc=92.72%  val_loss=1.4647  val_acc=71.66%  lr=1.87e-04  [230.6s]
+Epoch  22/50  train_loss=0.2019  train_acc=93.18%  val_loss=1.4801  val_acc=71.48%  lr=1.78e-04  [230.3s]
+Epoch  23/50  train_loss=0.1844  train_acc=93.81%  val_loss=1.5326  val_acc=71.45%  lr=1.69e-04  [230.5s]
+Epoch  24/50  train_loss=0.1770  train_acc=93.88%  val_loss=1.5476  val_acc=71.90%  lr=1.59e-04  [230.5s]
+Epoch  25/50  train_loss=0.1629  train_acc=94.43%  val_loss=1.5186  val_acc=71.91%  lr=1.50e-04  [230.5s]
+Epoch  26/50  train_loss=0.1519  train_acc=94.76%  val_loss=1.5807  val_acc=71.73%  lr=1.41e-04  [229.9s]
+Epoch  27/50  train_loss=0.1460  train_acc=95.02%  val_loss=1.6217  val_acc=71.19%  lr=1.31e-04  [229.9s]
+Epoch  28/50  train_loss=0.1443  train_acc=95.10%  val_loss=1.6447  val_acc=72.26%  lr=1.22e-04  [230.2s]
+  ✓ New best val_acc=72.26% — checkpoint saved.
+Epoch  29/50  train_loss=0.1308  train_acc=95.55%  val_loss=1.7221  val_acc=71.61%  lr=1.13e-04  [230.2s]
+Epoch  30/50  train_loss=0.1231  train_acc=95.80%  val_loss=1.6930  val_acc=72.07%  lr=1.04e-04  [230.1s]
+Epoch  31/50  train_loss=0.1154  train_acc=96.05%  val_loss=1.7519  val_acc=72.19%  lr=9.48e-05  [230.1s]
+Epoch  32/50  train_loss=0.1072  train_acc=96.28%  val_loss=1.7290  val_acc=72.12%  lr=8.61e-05  [230.1s]
+Epoch  33/50  train_loss=0.1108  train_acc=96.22%  val_loss=1.7919  val_acc=72.39%  lr=7.77e-05  [230.3s]
+  ✓ New best val_acc=72.39% — checkpoint saved.
+Epoch  34/50  train_loss=0.0961  train_acc=96.58%  val_loss=1.8921  val_acc=72.12%  lr=6.96e-05  [230.2s]
+Epoch  35/50  train_loss=0.1010  train_acc=96.45%  val_loss=1.8096  val_acc=71.96%  lr=6.18e-05  [230.1s]
+Epoch  36/50  train_loss=0.0973  train_acc=96.50%  val_loss=1.8131  val_acc=72.21%  lr=5.44e-05  [230.3s]
+Epoch  37/50  train_loss=0.0869  train_acc=97.00%  val_loss=1.8346  val_acc=72.26%  lr=4.73e-05  [230.1s]
+Epoch  38/50  train_loss=0.0822  train_acc=97.20%  val_loss=1.8618  val_acc=72.33%  lr=4.07e-05  [230.5s]
+Epoch  39/50  train_loss=0.0816  train_acc=97.18%  val_loss=1.8914  val_acc=72.44%  lr=3.44e-05  [230.3s]
+  ✓ New best val_acc=72.44% — checkpoint saved.
+Epoch  40/50  train_loss=0.0789  train_acc=97.33%  val_loss=1.9385  val_acc=72.33%  lr=2.86e-05  [230.2s]
+Epoch  41/50  train_loss=0.0774  train_acc=97.30%  val_loss=1.9442  val_acc=72.58%  lr=2.34e-05  [230.2s]
+  ✓ New best val_acc=72.58% — checkpoint saved.
+Epoch  42/50  train_loss=0.0712  train_acc=97.45%  val_loss=1.9394  val_acc=72.54%  lr=1.86e-05  [230.2s]
+Epoch  43/50  train_loss=0.0671  train_acc=97.69%  val_loss=1.9520  val_acc=72.32%  lr=1.43e-05  [230.1s]
+Epoch  44/50  train_loss=0.0699  train_acc=97.57%  val_loss=1.9202  val_acc=72.25%  lr=1.05e-05  [230.4s]
+Epoch  45/50  train_loss=0.0717  train_acc=97.42%  val_loss=1.9173  val_acc=72.29%  lr=7.34e-06  [230.3s]
+Epoch  46/50  train_loss=0.0668  train_acc=97.74%  val_loss=1.9014  val_acc=72.37%  lr=4.71e-06  [230.1s]
+Epoch  47/50  train_loss=0.0651  train_acc=97.70%  val_loss=1.9684  val_acc=72.43%  lr=2.66e-06  [230.3s]
+Epoch  48/50  train_loss=0.0674  train_acc=97.58%  val_loss=1.9516  val_acc=72.36%  lr=1.18e-06  [230.4s]
+Epoch  49/50  train_loss=0.0678  train_acc=97.68%  val_loss=1.9534  val_acc=72.26%  lr=2.96e-07  [230.3s]
+Epoch  50/50  train_loss=0.0648  train_acc=97.63%  val_loss=1.9742  val_acc=72.40%  lr=0.00e+00  [230.3s]
+
+────────────────────────────────────────────────────────────
+Loading best checkpoint: checkpoints\wafenet_fer2013_best.pth
+
+[FER2013]  Loss=1.9442  Accuracy=72.58%  (5210/7178)
+
+  ★ Final test accuracy: 72.58%
+────────────────────────────────────────────────────────────
+
+Training history saved to checkpoints\wafenet_fer2013_history.json
+-------------------------------------------------------------------------------------------------------------------------------
+(torch2) C:\Users\PC5>python D:\New_Model\run_experiments.py --datasets  ckplus
+
+============================================================
+  Dataset : CKPLUS
+  Model   : wafenet
+  Device  : cuda
+============================================================
+
+CK+  train=784  test=197
+Classes : ['anger', 'contempt', 'disgust', 'fear', 'happy', 'sadness', 'surprise']
+Parameters: 22.4 M
+
+Epoch   1/50  train_loss=1.8886  train_acc=24.74%  val_loss=1.5958  val_acc=52.79%  lr=3.00e-04  [29.1s]
+  ✓ New best val_acc=52.79% — checkpoint saved.
+Epoch   2/50  train_loss=1.3159  train_acc=53.19%  val_loss=0.7389  val_acc=70.05%  lr=2.99e-04  [28.2s]
+  ✓ New best val_acc=70.05% — checkpoint saved.
+Epoch   3/50  train_loss=0.8412  train_acc=68.37%  val_loss=0.3155  val_acc=92.89%  lr=2.97e-04  [28.2s]
+  ✓ New best val_acc=92.89% — checkpoint saved.
+Epoch   4/50  train_loss=0.6197  train_acc=78.32%  val_loss=0.1841  val_acc=94.92%  lr=2.95e-04  [28.3s]
+  ✓ New best val_acc=94.92% — checkpoint saved.
+Epoch   5/50  train_loss=0.3217  train_acc=89.80%  val_loss=0.0985  val_acc=96.45%  lr=2.93e-04  [28.2s]
+  ✓ New best val_acc=96.45% — checkpoint saved.
+Epoch   6/50  train_loss=0.2478  train_acc=93.11%  val_loss=0.0568  val_acc=98.98%  lr=2.89e-04  [28.2s]
+  ✓ New best val_acc=98.98% — checkpoint saved.
+Epoch   7/50  train_loss=0.2483  train_acc=91.58%  val_loss=0.1512  val_acc=96.95%  lr=2.86e-04  [28.2s]
+Epoch   8/50  train_loss=0.3286  train_acc=89.41%  val_loss=0.0355  val_acc=99.49%  lr=2.81e-04  [28.4s]
+  ✓ New best val_acc=99.49% — checkpoint saved.
+Epoch   9/50  train_loss=0.2161  train_acc=94.52%  val_loss=0.0477  val_acc=98.98%  lr=2.77e-04  [28.2s]
+Epoch  10/50  train_loss=0.1326  train_acc=96.17%  val_loss=0.0240  val_acc=98.98%  lr=2.71e-04  [28.4s]
+Epoch  11/50  train_loss=0.1605  train_acc=95.66%  val_loss=0.0206  val_acc=100.00%  lr=2.66e-04  [28.6s]
+  ✓ New best val_acc=100.00% — checkpoint saved.
+Epoch  12/50  train_loss=0.1648  train_acc=95.03%  val_loss=0.0158  val_acc=99.49%  lr=2.59e-04  [28.6s]
+Epoch  13/50  train_loss=0.1164  train_acc=96.05%  val_loss=0.0080  val_acc=100.00%  lr=2.53e-04  [28.4s]
+Epoch  14/50  train_loss=0.1080  train_acc=97.19%  val_loss=0.0055  val_acc=100.00%  lr=2.46e-04  [28.2s]
+Epoch  15/50  train_loss=0.0764  train_acc=97.70%  val_loss=0.0044  val_acc=100.00%  lr=2.38e-04  [28.4s]
+Epoch  16/50  train_loss=0.1146  train_acc=96.94%  val_loss=0.0269  val_acc=98.98%  lr=2.30e-04  [28.4s]
+Epoch  17/50  train_loss=0.1173  train_acc=96.05%  val_loss=0.0314  val_acc=98.98%  lr=2.22e-04  [28.2s]
+Epoch  18/50  train_loss=0.0878  train_acc=97.45%  val_loss=0.0192  val_acc=99.49%  lr=2.14e-04  [28.2s]
+Epoch  19/50  train_loss=0.0660  train_acc=98.60%  val_loss=0.0066  val_acc=100.00%  lr=2.05e-04  [28.2s]
+Epoch  20/50  train_loss=0.0595  train_acc=98.09%  val_loss=0.0057  val_acc=100.00%  lr=1.96e-04  [28.2s]
+Epoch  21/50  train_loss=0.0780  train_acc=97.45%  val_loss=0.0068  val_acc=99.49%  lr=1.87e-04  [28.4s]
+Epoch  22/50  train_loss=0.0568  train_acc=98.21%  val_loss=0.0040  val_acc=100.00%  lr=1.78e-04  [28.2s]
+Epoch  23/50  train_loss=0.0465  train_acc=98.60%  val_loss=0.0013  val_acc=100.00%  lr=1.69e-04  [28.2s]
+Epoch  24/50  train_loss=0.0505  train_acc=98.60%  val_loss=0.0017  val_acc=100.00%  lr=1.59e-04  [28.2s]
+Epoch  25/50  train_loss=0.0408  train_acc=98.72%  val_loss=0.0007  val_acc=100.00%  lr=1.50e-04  [28.4s]
+Epoch  26/50  train_loss=0.0425  train_acc=98.98%  val_loss=0.0010  val_acc=100.00%  lr=1.41e-04  [28.2s]
+
+  Early stopping triggered after 15 epochs without improvement.
+
+────────────────────────────────────────────────────────────
+Loading best checkpoint: checkpoints\wafenet_ckplus_best.pth
+
+[CKPLUS]  Loss=0.0206  Accuracy=100.00%  (197/197)
+
+  ★ Final test accuracy: 100.00%
+────────────────────────────────────────────────────────────
+
+Training history saved to checkpoints\wafenet_ckplus_history.json
+
+
+======================================================================
+  PER-CLASS REPORTS
+======================================================================
+CK+  train=784  test=197
+Classes : ['anger', 'contempt', 'disgust', 'fear', 'happy', 'sadness', 'surprise']
+
+============================================================
+  CKPLUS  —  Test Accuracy: 100.00%
+============================================================
+              precision    recall  f1-score   support
+
+       Angry     1.0000    1.0000    1.0000        27
+     Disgust     1.0000    1.0000    1.0000        11
+        Fear     1.0000    1.0000    1.0000        35
+       Happy     1.0000    1.0000    1.0000        15
+         Sad     1.0000    1.0000    1.0000        42
+    Surprise     1.0000    1.0000    1.0000        17
+     Neutral     1.0000    1.0000    1.0000        50
+
+    accuracy                         1.0000       197
+   macro avg     1.0000    1.0000    1.0000       197
+weighted avg     1.0000    1.0000    1.0000       197
+
+Confusion Matrix:
+[[27  0  0  0  0  0  0]
+ [ 0 11  0  0  0  0  0]
+ [ 0  0 35  0  0  0  0]
+ [ 0  0  0 15  0  0  0]
+ [ 0  0  0  0 42  0  0]
+ [ 0  0  0  0  0 17  0]
+ [ 0  0  0  0  0  0 50]]
+
+======================================================================
+  Table 6. Comparison on CK+
+======================================================================
+Method                                           Year   Accuracy (%)
+──────────────────────────────────────────────────────────────────────
+TPAN [41]                                        2021          92.84
+DeepCNN [42]                                     2021          98.00
+Fusion-CNN [20]                                  2023          98.22
+ZFER [43]                                        2023          98.74
+CNN [44]                                         2024          98.00
+VGG-19 [45]                                      2025          98.00
+ResNet-50 [46]                                   2025          98.48
+DCRNet [39]                                      2025          98.98
+──────────────────────────────────────────────────────────────────────
+WAFE-Net (Proposed)                              2026         100.00  ★
+======================================================================
