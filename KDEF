@@ -1,0 +1,12 @@
+Karolinska Directed Emotional Faces (KDEF) dataset: contains approximately 2,938 high-resolution
+color images from 70 individuals (35 males and 35 females), each with a resolution of 562 × 762 pixels.
+They include seven expressions and were captured under uniform lighting and background conditions from five
+different viewing angles (full left, half left, front, half right, and full right). This dataset is considered laboratory
+based, having been developed for psychological and affective computing research. KDEF provides a clean and
+controlled environment for evaluating facial expression recognition algorithms, ensuring consistent classification
+and minimal environmental noise. Its demographic diversity is limited, and it lacks the natural variability found in
+real-world scenarios. This makes it particularly useful for establishing baseline benchmarks, analyzing expression
+intensity, and conducting controlled experimental studies. 
+
+The dataset used in this study can be accessed from:
+https://www.kaggle.com/datasets/KDEF.
