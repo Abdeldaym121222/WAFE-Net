@@ -1,0 +1,10 @@
+The Extended Cohn–Kanade (CK+) dataset [20] contains approximately 981 sequences collected from 123
+individuals representing diverse populations. They include seven expressions: anger, contempt, disgust, fear,
+happiness, sadness, and surprise. These expressions are derived from a variety of emotions and are among the most
+widely used datasets for facial expression recognition. They contain high-resolution grayscale images with a size of
+48x48 pixel. CK+ also includes Facial Action Coding System (FACS) annotations, allowing researchers to analyze
+facial muscle movements (action units) in addition to categorizing emotions. Due to its high classification quality,
+CK+ is commonly used for model calibration, evaluation, and transfer learning in facial expression recognition.
+
+The dataset used in this study can be accessed from:
+https://www.kaggle.com/datasets/shawon10/ckplus
